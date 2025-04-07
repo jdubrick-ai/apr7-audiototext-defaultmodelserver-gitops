@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: apr7-audiototext-defaultmodelserver-database-config
+data:
+  VECTORDB_HOST: "apr7-audiototext-defaultmodelserver-database"
+  VECTORDB_PORT: ""
